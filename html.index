@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <img src="images/netflix-logo.png" alt="Netflix Logo" class="logo">
+    <a href="#" class="btn-signin">Sign In</a>
+  </header>
 
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Unlimited movies, TV shows, and more.</h1>
+    <p>Watch anywhere. Cancel anytime.</p>
+    <form class="signup-form">
+      <input type="email" placeholder="Email address" required>
+      <button type="submit">Get Started</button>
+    </form>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="feature-item">
+      <h2>Enjoy on your TV.</h2>
+      <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, and more.</p>
+    </div>
+    <div class="feature-item">
+      <h2>Download your shows to watch offline.</h2>
+      <p>Save your favorites easily and always have something to watch.</p>
+    </div>
+    <div class="feature-item">
+      <h2>Watch everywhere.</h2>
+      <p>Stream on your phone, tablet, laptop, or TV without paying more.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Questions? Call 1-800-000-0000</p>
+    <ul>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Help Center</a></li>
+      <li><a href="#">Terms of Use</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
