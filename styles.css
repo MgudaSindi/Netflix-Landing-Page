@@ -109,5 +109,17 @@ body {
 }
 
 .footer a:hover {
-  text-decoration: underline;
+  text-decoration: /* Mobile Styles */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .signup-form {
+    flex-direction: column;
+  }
+
+  .signup-form input {
+    margin-bottom: 10px;
+  }
 }
